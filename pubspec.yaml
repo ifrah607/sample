@@ -1,0 +1,25 @@
+name: crud
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+
+  cloud_firestore: ^5.0.1
+  firebase_core: ^3.1.0
+  flutter:
+    sdk: flutter
+
+  fluttertoast: ^8.2.6
+  random_string: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
